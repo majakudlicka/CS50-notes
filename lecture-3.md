@@ -1,4 +1,4 @@
-bubble sort: Keep comparing two neighbouring numbers and re-arranging accordingly
+Bubble sort: Keep comparing two neighbouring numbers and re-arranging accordingly
  - n^2
 
 Selection sort - The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning.

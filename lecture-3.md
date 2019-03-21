@@ -1,4 +1,9 @@
-Selection sort - find the smallest number, insert it at position zero, find second smallest, insert at position one etc
+bubble sort: Keep comparing two neighbouring numbers and re-arranging accordingly
+ - n^2
+
+Selection sort - The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning.
+
+Insertion sort -find the smallest number, insert it at position zero, find second smallest, insert at position one etc
 
 Big O - worst case running time
 Omega - best case running time

@@ -35,4 +35,12 @@ T(16)= 64 = 16log16 = n logn!!
 
 The way C represents negative numbers is by changing one bit. For very large positive numbers, it might get confused...
 
+Adding * to variable name (ex int* a) indicates that we intend to pass it as a link to an address in memory, not as a copy 
+
+We use & when calling a function and * when declaring it
+
+* --> "Go to location..."
+
+string in C - an address of the character in RAM
+
 

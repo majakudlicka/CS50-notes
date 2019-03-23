@@ -43,4 +43,31 @@ We use & when calling a function and * when declaring it
 
 string in C - an address of the character in RAM
 
+Char - typically 1 byte. Int - typically 4 bytes.
+
+String in C is an array of chars, being 1 byte apart from each other and terminated by special \o character indicating the end of string.
+
+string = char*
+
+'getString()' actualy returns the address of the first byte. That is sufficient to find the entire string.
+
+This is why comparing strings using == in C actually compares addresses in memory under the hood and returns false for identical strings.
+
+0th byte: reserved for signalling errors. No data is ever stored there. 0 == NULL
+
+When you 'naively' copy string in C, they are being copied by reference - point to the same address in memory.
+
+String.h -> you can find string compare function there
+
+Malloc: memmory allocation
+
+In C, when you are dealing with address, it usually means the first address of the requested chunk.
+
+When you put a string in memory, you should ask for its length + 1 bytes -> 1 reserved for special /o character.
+
+Sizeof - function that will tell you how many bytes a given data type requires. For example, sizeoOf(char) = 1 (typically)
+
+If for whatever reason memmory could not be allocated, system will return NULL.
+
+
 

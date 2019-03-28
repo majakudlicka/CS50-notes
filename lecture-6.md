@@ -25,4 +25,10 @@ Operations we can perform on link list: insert, delete, search, traverse
 
 To access a struct from pointer ptnr->n (arrow)(like . but when we have a pointer)
 
+Linked lists need more memory space than arrays
+
+Last elememt's pointer = NULL
+
+Convention - put datatype definitions at the top of the file
+
 

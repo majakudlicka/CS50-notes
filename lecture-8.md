@@ -7,9 +7,13 @@ PHP
 - Dot symbol is used to concatenate strings
 - Die :) -> Something like throw Error in JS; kills program
 - Superglobals - associative arrays such as $_GET, $_COOKIE
+- Runs on server, not in browser. Server generates html.
 
 MVC - Model View Controller
 
 Model should represent data (database stuff)
 View should take care of website aesthetics (html/ css)
 Finally, Controller is responsible for business logic
+
+SSL - secure sockets layer
+
